@@ -16,6 +16,7 @@ export default {
     configToken: 'Please configure the token first',
     tokenOk: 'The token is available',
     tokenError: 'The token is not available, please reconfigure',
+    userPrivate: 'The account is suspected of being marked as unavailable by Github',
     projectExist: 'The project already exists.',
     creatProjectError: 'Create project failed',
     englishName: 'Please enter a pure English project name.',
@@ -109,7 +110,7 @@ export default {
     copySuccess: 'Copy successful',
     delSuccess: 'Delete successful',
     aboutGuide:
-        'PakePlus is open-source and free. It allows you to package web pages or projects like Vue/React into cross-platform apps with just a GitHub Token. It supports standalone executables for Windows, macOS, and Linux, as well as mobile platforms like Android and iOS. If you have any questions, feel free to add me on WeChat: lanxingme (note: PakePlus) or email me at：1024xiaoshen@gmail.com',
+        'PakePlus is open-source and free. It allows you to package web pages or projects like Vue/React into cross-platform apps with just a GitHub Token. It supports standalone executables for Windows, macOS, and Linux, as well as mobile platforms like Android and iOS. If you have any questions, feel free to add me on WeChat: lanxingme (note: PakePlus) or email me at：{email}',
     followme: 'Follow me',
     moreConfig: 'More Config',
     superpower: 'Superpower',
@@ -201,7 +202,7 @@ export default {
     copyAddress: 'Copy Address',
     sponsor: 'Sponsor',
     sponsorTips:
-        'If you also like our PakePLus project, welcome to sponsor us, we will continue to develop and maintain it. Your support is our driving force. Please fill in the message when sponsoring, so that we can record it in the sponsor list, thank you for your support and encouragement!',
+        'If you also like our PakePlus project, welcome to sponsor us, we will continue to develop and maintain it. Your support is our driving force. Please fill in the message when sponsoring, so that we can record it in the sponsor list, thank you for your support and encouragement!',
     sponsorList: 'Sponsor List',
     sponsorListTips: 'Thank you for your support and encouragement!',
     buildTips: 'Please do not do any operations during building...',
